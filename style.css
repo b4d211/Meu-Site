@@ -10,6 +10,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
 }
 .titulo{
     background-color: white;
@@ -17,6 +18,7 @@ body{
     border-radius: 90px 0px 90px 0px;
 }
 .titulo img{
+    margin-top: 0px;
     border-radius: 40px;
 }
 .titulo h1{
@@ -25,6 +27,7 @@ body{
     background-color: rgb(147, 224, 70);
     border-radius: 90px 0px 90px 0px;
     margin-top: 0px;
+    margin-bottom: 90px;
 }
 .titulo h2{
     font-family: "Montserrat", sans-serif;
@@ -37,4 +40,23 @@ body{
 .titulo h3{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+}
+.imagens{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 90px 0px 90px 0px;
+    width: 850px;
+    height: 1000px;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+.imagens img{
+    border-radius: 90px 0px 90px 0px;
+}
+.imagens h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    background-color: rgb(147, 224, 70);
+    border-radius: 90px 0px 90px 0px;
+    margin-top: 0px;
 }
