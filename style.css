@@ -74,6 +74,7 @@ body{
 }
 .conquistas img{
     width: 500px;
+    height: 300px;
 }
 .conquistas h1{
     font-family: "Montserrat", sans-serif;
@@ -84,4 +85,33 @@ body{
     padding-bottom: 30px;
     padding-top: 30px;
     margin-left: 110px;
-};
+}
+
+.favoritos{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 90px 0px 90px 0px;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+
+}
+.favoritos img{
+    height: 450px;
+    width: 300px;
+    margin-right: 10px;
+}
+.img_ordem{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.favoritos h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    background-color: rgb(147, 224, 70);
+    border-radius: 90px 0px 90px 0px;
+    margin-top: 0px;
+}
